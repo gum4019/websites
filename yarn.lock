@@ -1607,12 +1607,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cometjs/graphql-utils@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@cometjs/graphql-utils@npm:1.1.0"
+"@cometjs/core@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@cometjs/core@npm:2.0.2"
+  peerDependencies:
+    typescript: ^4.5.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 6d4fa87c26f29365283e5eb4a918610631b851363a3ea53f5c14ab3e81cb9d293c160866418816cd1aa7d3086b7ace627662e7081d9d0c97a55e10cc3e75b40a
+  languageName: node
+  linkType: hard
+
+"@cometjs/graphql-utils@npm:2.0.2":
+  version: 2.0.2
+  resolution: "@cometjs/graphql-utils@npm:2.0.2"
   dependencies:
-    "@cometjs/core": 1.2.0
-  checksum: f7ebe92782193790a11af4a1ad19cdba8d1aefeb96a51cc5995a5b00e8441ac29e3523a86247f45764206e8d5521b6ec95598dba391d0cd5469418db99daaaf9
+    "@cometjs/core": ^2.0.2
+  checksum: 16e556428eff4db88df4a7fe5c97312a2b6e5cbb784dc6ff1d06014dd5b3440bf5f8652f595c857aba06c0e166d699d684ebd8cf8b24ed4c8c725dfb2ef8c585
   languageName: node
   linkType: hard
 
@@ -2922,7 +2934,7 @@ __metadata:
   dependencies:
     "@babel/cli": 7.17.6
     "@babel/core": 7.17.5
-    "@cometjs/graphql-utils": 1.1.0
+    "@cometjs/graphql-utils": 2.0.2
     "@karrotmarket/design-token": 1.1.1
     "@karrotmarket/gatsby-theme-prismic": "workspace:^"
     "@karrotmarket/gatsby-theme-website": "workspace:^"
@@ -3001,7 +3013,7 @@ __metadata:
     "@babel/plugin-transform-react-jsx": 7.17.3
     "@babel/plugin-transform-typescript": 7.16.8
     "@cometjs/core": 1.2.0
-    "@cometjs/graphql-utils": 1.1.0
+    "@cometjs/graphql-utils": 2.0.2
     "@cometjs/react-utils": 1.1.0
     "@karrotmarket/design-token": 1.1.1
     "@karrotmarket/gatsby-plugin-lokalise-translation": "workspace:^"
@@ -4552,7 +4564,7 @@ __metadata:
     "@babel/plugin-transform-react-jsx": 7.17.3
     "@babel/plugin-transform-typescript": 7.16.8
     "@cometjs/core": 1.2.0
-    "@cometjs/graphql-utils": 1.1.0
+    "@cometjs/graphql-utils": 2.0.2
     "@karrotmarket/design-token": 1.1.1
     "@karrotmarket/gatsby-theme-prismic": "workspace:^"
     "@karrotmarket/gatsby-theme-website": "workspace:^"
